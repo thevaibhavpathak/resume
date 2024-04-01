@@ -1,0 +1,193 @@
+\documentclass[a4paper,12pt]{article} % Increased font size to 12pt
+\usepackage[bottom=1.0in,top=0.7in, left=0.4in,right=0.4in]{geometry}
+
+% non-numbered pages
+\pagestyle{empty}
+
+\usepackage[T1]{fontenc}
+\usepackage{newtxmath,newtxtext}
+
+%A Few Useful Packages
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor={linkcolour!90}, linkcolor={linkcolour!90}}
+
+% line spacing
+\linespread{1.02}
+
+% section reformatting
+\titleformat{\section}{\color{black} \large}{}{0em}{}[\color{black}]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+
+\newcommand{\sectitle}[1]{
+    \vspace{0.5ex}
+    \section{#1}
+    \vspace{-3ex}
+    \noindent\rule{\textwidth}{0.4pt}
+    \vspace{-4ex}
+}
+
+% new text bold style
+\newsavebox\CBox
+\def\textBF#1{\sbox\CBox{#1}\resizebox{\wd\CBox}{\ht\CBox}{\textcolor{linkcolour}{{#1}}}}
+\parindent=0pt
+
+%-------------------- Begin document ----------------------
+\begin{document}
+
+%-------------------- Title section ----------------------
+\begin{minipage}{\textwidth}
+    \vspace{1.25ex}
+        \par{
+        \centering
+        \vspace{-0.3in}
+            % \textcolor{black}{\emph{Curriculum Vitae}}\\
+            \textcolor{linkcolour}{\Huge Vaibhav Pathak}
+        \par}
+\end{minipage}
+
+%-------------------- Header ----------------------
+\begin{center}
+    \href{mailto:vaibhavpathak2003@gmail.com}{\underline{Email}} \,$\cdot$\,
+ \href{https://www.linkedin.com/in/thevaibhavpathak/}{LinkedIn} \,$\cdot$\, \href{https://github.com/thevaibhavpathak}{GitHub} \,$\cdot$\,
+ \href{https://www.behance.net/thevaibhavpathak}{Behance} \,$\cdot$\, {+91-9347132610}
+\end{center}
+\vspace{-2px}
+\begin{center}
+    Hyderabad, Telangana
+\end{center}
+\vspace{-0.125in}
+\sectitle{Summary}
+\vspace{-0.7px}
+ 
+As a versatile individual, I excel in design, development, and leadership roles. With a focus on user-centric design, I create engaging digital interfaces. My coding skills allow me to bridge design and functionality, building intuitive applications. I lead teams efficiently, ensuring timely delivery of exceptional results. Driven by a passion for growth, I continuously seek opportunities to expand my horizons and contribute to the digital landscape.
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+\sectitle{Education}
+
+\textBF{Btech} in Computer Science and Engineering -- {Vellore Institute of Technology (\textit{CGPA: 8.52})}\hfill {Sep 2021 -- Present}
+
+\textBF{Pre-University} -- {Ramaiah IIT Study Circle \textit{(Percentage: 94\%)}}  \hfill {Jul 2019 -- May 2021} 
+
+\textBF{Schooling} -- {The Hyderabad Public School, Begumpet \textit{(Percentage: 92\%)}}\hfill {Jul 2014 -- May 2019}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\sectitle{Skills}
+
+\textBF{Languages} -- English, Hindi, Marathi, Kannada, Telugu and Tamil. 
+
+\vspace{-4px}
+\textBF{Programing Languages} -- C++, Java, Python, SQL, HTML5, CSS, Javascript, NextJs, NodeJs, ExpressJs, Drizzle ORM, Matlab, R, Verilog
+
+\vspace{-4px}
+\textBF{Design Tools} -- Figma, Adobe XD, Adobe Illustrator, Framer, Basic knowledge in Adobe Photoshop. 
+
+\vspace{-4px}
+\textBF{Design Skills} -- User research, Wireframing, Usability Studies, Prototyping, Presentation
+
+\vspace{-4px}
+\textBF{Certificates} -- \href{https://drive.google.com/file/d/1WS-IXc096DnIt8R9SYosxBnmbEqB9t3W/view?usp=sharing}{Google UX Design}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\sectitle{Experience}
+
+\textBF{Thal.e} -- Product Designer \hfill Jun 2023 - Present
+
+\vspace{-7px}
+Lead a team to create appealing designs for digital platforms and marketing materials, ensuring brand consistency and user experience.
+
+\textBF{Arete IR} -- Project Trainee \hfill Aug 2023
+
+\vspace{-7px}
+Gained hands-on experience in understanding various cybersecurity tools and techniques, working with a team to analyze and mitigate potential security threats.
+
+\textBF{Freelance} --  UI/UX Designer \hfill Aug 2021
+
+\vspace{-7px}
+Collaborated with clients to comprehend their business goals and user needs, then designed intuitive and visually appealing user interfaces for web and mobile applications, ensuring a seamless user experience. Also worked with client for graphic design projects.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\sectitle{Hackathons}
+
+\textBF{First Prize} -- YANTRA '23 (\textit{\underline{\href{https://github.com/thevaibhavpathak/care-bridge-web}{Care Bridge}}})\hfill Jun 2023
+
+\vspace{-7px}
+Our team developed CareBridge, an innovative app that combines advanced technologies like Machine Learning and social networking features to provide comprehensive assistance for the elderly. My primary object was to enhance the User Experience and implementation of the front-end.
+
+\textBF{Best Implementation and Symbl.ai Track} -- Devspace by CSI (\textit{\underline{\href{https://github.com/thevaibhavpathak/DevSpace-22}{Étudie}}}) \hfill Jun 2022
+
+\vspace{-7px}
+Our solution featured essential components, such as real-time drawing boards, smooth video playback, voicechat with transcription (through Symbl.ai), inbuilt real-time code editors and compilers for prototyping, and an inbuilt document editor.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\sectitle{Co-Curricular}
+
+\vspace{-2px}
+\textBF{Design Lead} -- CodeChef-VIT \hfill Jul 2023 -- Present
+
+\vspace{-7px}
+Applied user-centric design principles to create engaging user interfaces, collaborating with teams and iterating based on feedback.
+
+\vspace{-2px}
+\textBF{Finance Head} -- Ayuda NGO \hfill Jan 2023 -- Mar 2024
+
+\vspace{-7px}
+Developed and implemented financial plans aligned with organizational goals, while managing budgets and analyzing financial data to facilitate informed decision-making.
+
+
+\vspace{-2px}
+\textBF{Design Mentor} -- Matrix \hfill Jan 2023 -- Mar 2024
+
+\vspace{-7px}
+As a mentor in the field of design, advised and motivated aspiring designers by sharing personal experiences, insights, and expertise.
+
+
+\vspace{-2px}
+\textBF{Organizer} -- Agaaz 7.0 \hfill Feb 2024
+
+\vspace{-7px}
+Played a pivotal role in organizing Agaaz 7.0, a premium event of Riviera '24, where 4 renowned stand-up comedians were invited to perform for an audience of over 2,000 people.
+
+\vspace{-2px}
+\textBF{Technical Manager} -- ICETITE '24 \hfill Feb 2024
+
+\vspace{-7px}
+As the technical manager, I ensured an optimal user experience for participants, overseeing logistics and judging the BOLT 2.0 hackathon, fostering a productive and engaging environment.
+
+\vspace{-2px}
+\textBF{Coordinator} -- Special Guest Care - Riviera '24 \hfill Feb 2024
+
+\vspace{-7px}
+Managed hospitality and logistics for distinguished guests at Riviera '24, VIT's cultural fest, ensuring a comfortable and memorable experience for all VIPs.
+
+\vspace{-2px}
+\textBF{Coordinator} -- Registrations and Receptions - Gravitas '23 \hfill Sept 2023
+
+\vspace{-7px}
+Oversaw the registration process and managed the reception desk for Gravitas '23, a prominent management event, ensuring smooth operations and a welcoming atmosphere for participants.
+
+\vspace{-2px}
+\textBF{Organizer} -- DEVSOC'23 \hfill Jun 2023
+
+\vspace{-7px}
+Served on the organizing committee for the largest student-led hackathon in South Asia, ensuring a positive experience for the over 2,000 attendees.
+
+\vspace{-2px}
+\textBF{Volunteer} -- Proshows - Riviera '23 \hfill Feb 2023
+
+\vspace{-7px}
+Served as an integral part of the organizing committee for one of India's most prestigious student-run cultural events, where the team managed over 30,000 participants.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
